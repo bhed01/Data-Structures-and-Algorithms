@@ -24,7 +24,7 @@ typedef std::pair<int, int>
  * @param adj Adjacency matrix of the graph.
  * @param cost Adjacency martrix denoting the weight of the edges.
  * @param s Index of the source vertex.
- * @param v Index of the target vertex.
+ * @param t Index of the target vertex.
  * @return weight of the shortest path.
  **/
 int distance(vector<vector<int>> &adj, vector<vector<int>> &cost, int s,
